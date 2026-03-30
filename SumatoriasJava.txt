@@ -1,0 +1,33 @@
+*************************************************
+          	SUMATORIAS
+*************************************************
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int i,a,b,c,imp,n,s;
+        do{
+            System.out.print("Introduce n: ");
+            n=sc.nextInt();
+        }
+        while (n<=0);
+        a=-1;
+        b=1;
+        c=0;
+        imp=1;
+        s=0;
+        for (i=1;i<=n;i++){
+            if (i%2==0){
+                s=s+imp;
+                imp=imp+2;
+            }
+            else{
+                c=a+b;
+                a=b;
+                b=c;
+                s=s+c;
+            }
+        }
+        System.out.print("suma: "+s);
+    }
+}
