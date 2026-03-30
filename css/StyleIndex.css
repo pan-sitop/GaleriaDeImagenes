@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: burlywood;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+.galeria{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.tarjeta{
+    display: inline-block;
+    background-color: coral;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(32, 32, 32);
+    overflow: hidden;
+}
+.tarjeta img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.descripcion{
+    padding: 15px;
+}
+.descripcion h3{
+    margin: 0 0 10px 0;
+}
+.descripcion p{
+    margin: 0;
+    color:darkblue;
+}
+footer{
+    text-align: center;
+    background-color:burlywood ;
+    padding: 10px;
+}
+.tarjeta:hover{
+    transform: scale(1.1);
+    background-color: chartreuse;
+}
