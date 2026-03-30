@@ -50,13 +50,3 @@ footer{
     transform: scale(1.1);
     background-color: chartreuse;
 }
-
-
-#ej{
-   background-color: red;
-    
-}
-#ej:hover{
-    transform: scale(2);
-    background-color: cornflowerblue;
-}
